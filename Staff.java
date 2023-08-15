@@ -16,8 +16,8 @@ public class Staff extends Person {
         this.school = school;
     }
 
-    String getPay() {
-        return school;
+    double getPay() {
+        return pay;
     }
 
     void setPay(double pay) {
