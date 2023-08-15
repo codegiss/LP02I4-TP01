@@ -5,6 +5,15 @@ public class TP01EX03_test {
         System.out.println("Endereço: " + aluno.getAddress());
         aluno.setAddress("Avenida do Vale, 6");
         System.out.println("Endereço novo: " + aluno.getAddress());
+        System.out.println("Programa do aluno: " + aluno.getProgram());
+        aluno.setProgram("MBA");
+        System.out.println("Novo programa do aluno: " + aluno.getProgram());
+        System.out.println("Ano de curso: " + aluno.getYear());
+        aluno.setYear(6);
+        System.out.println("Ano atualizado: " + aluno.getYear());
+        System.out.println("Débito estudantil: " + aluno.getFee());
+        aluno.setFee(2000);
+        System.out.println("Débito atualizado: " + aluno.getFee());
         System.out.println(aluno.toString());
 
         System.out.println();
